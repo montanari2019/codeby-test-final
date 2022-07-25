@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.container > img {
+    width: 9rem;
+    height: 9rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 5px;
+}
+
+.container > strong {
+    font-size: 1.2rem;
+   
+}
+
+.dataItem > p {
+    color: var(--gray-200);
+}
+
+.dataItem > h6{
+    font-size: 1.1rem;
+    
+}
+
+.dataItem{
+    margin-left: 1rem;
+}
+
+@media (min-width: 999px){
+
+    .dataItem{
+        margin-left: 2rem;
+    }
+}

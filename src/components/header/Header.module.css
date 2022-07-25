@@ -1,0 +1,35 @@
+.container{
+    background: var(--white);  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    
+}   
+
+.container > img{
+    height: 2rem;
+    padding-right: 4rem;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    margin-right: 1rem;
+    background: var(--blue);
+    padding: 0.25rem;
+    color: var(--gray-100);
+    border-radius: 8px;
+    border: 1px solid var(--dark-ciano);
+    cursor: pointer;
+}
+
+.link:hover{
+    background: var(--gray-100);
+    color: var(--blue);
+    outline: 1px solid var(--blue);
+    transition: background-color 0.1s;
+}
