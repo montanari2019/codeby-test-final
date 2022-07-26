@@ -1,6 +1,6 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Item } from "../../model/IProductCart";
-import styleItem from "./Item.module.css";
+import styleItem from "./ItemList.module.css";
 
 export function ItemList({ imageUrl, name, price, sellingPrice }: Item) {
   const priceReal = (price / 100).toLocaleString("pt-br", {
@@ -14,13 +14,13 @@ export function ItemList({ imageUrl, name, price, sellingPrice }: Item) {
 
   return (
     <div className={styleItem.container}>
-      <img src={imageUrl} />
+      <img role="figure" src={imageUrl} alt="Product"/>
       <div className={styleItem.dataItem}>
         <div className={styleItem.nameSection}>
-          <strong>{name}</strong>
+          <strong data-testid="list-item-name">{name}</strong>
         </div>
-        <p>{priceReal}</p>
-        <h6>{sellingPriceReal}</h6>
+        <p data-testid="list-item-price">{priceReal}</p>
+        <h6 data-testid="list-item-selling-price">{sellingPriceReal}</h6>
       </div>
     </div>
   );

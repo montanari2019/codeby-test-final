@@ -1,14 +1,17 @@
-import { TotalizerProduct } from "../../model/IProductCart";
 import styleTotalizer from "./Totalizer.module.css";
 
-export function Totalizer({ id, name, value }: TotalizerProduct) {
+interface ITotalizerProps {
+  value: number;
+}
+
+export function Totalizer({ value }: ITotalizerProps) {
 
   const valueConverted = (value/100).toLocaleString('pt-br', {style: 'currency', currency: 'BRL'});
   
   return (
     <div className={styleTotalizer.totalizersItem}>
       <strong>Total</strong>
-      <strong>{valueConverted}</strong>
+      <strong data-testid="totalizer-value">{valueConverted}</strong>
     </div>
   );
 }

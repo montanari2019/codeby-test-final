@@ -5,9 +5,10 @@ import { defaultFetcher } from "../../config/fetcher";
 import { IProductCart } from "../../model/IProductCart";
 import { useParams } from "react-router-dom";
 import { Header } from "../../components/header/Header";
-import { ItemList } from "../../components/item/Item";
+import { ItemList } from "../../components/item/ItemList";
 import { Badge } from "../../components/badge/Badge";
 import { Totalizer } from "../../components/totalizer/Totalizer";
+import { useMemo } from "react";
 
 export function ShoppingCart() {
   const { selectedCard } = useParams();
@@ -15,6 +16,11 @@ export function ShoppingCart() {
     selectedCard,
     defaultFetcher
   );
+  const totalizer = useMemo(() => {
+    if(!data || !data.totalizers) return undefined;
+
+    return data?.totalizers.find(totalizer => totalizer.id === "Items")
+  }, [data])
 
   if (!!error) {
     return <h1>Deu erro</h1>;
@@ -22,7 +28,7 @@ export function ShoppingCart() {
 
   return (
     <div>
-      <Header />
+      <Header/>
       <div className={styleShoppingCart.container}>
         <strong>Meu carrinho</strong>
         <div className={styleShoppingCart.alingCenterContainer}>
@@ -31,6 +37,7 @@ export function ShoppingCart() {
             <div className={styleShoppingCart.flexContainerListItem}>
               {!!data && !isValidating && data?.items.map((item) => (
                 <ItemList
+                  key={item.name}
                   imageUrl={item.imageUrl}
                   name={item.name}
                   price={item.price}
@@ -40,11 +47,9 @@ export function ShoppingCart() {
               {(!data || isValidating) && <h1>Carregando...</h1>}
             </div>
           </div>
-
+          
           <div className={styleShoppingCart.totalizers}>
-            {data?.totalizers.map((totalizer) =>
-              totalizer.id === "Items" ? <Totalizer id={totalizer.id} name={totalizer.name} value={totalizer.value}/> : null
-            )}
+            {!!totalizer && <Totalizer value={totalizer.value}/>}
 
             {selectedCard === "acima-10" && <Badge />}
           </div>
