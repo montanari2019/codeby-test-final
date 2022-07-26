@@ -5,8 +5,8 @@
 }
 
 .container > img {
-    width: 9rem;
-    height: 9rem;
+    width: 9rem !important;
+    height: 9rem !important;
     border: 1px solid var(--gray-200);
     border-radius: 5px;
 }
@@ -14,6 +14,10 @@
 .container > strong {
     font-size: 1.2rem;
    
+}
+
+.nameSection{
+    width: 200px;
 }
 
 .dataItem > p {

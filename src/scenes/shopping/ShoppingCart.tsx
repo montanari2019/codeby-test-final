@@ -20,10 +20,6 @@ export function ShoppingCart() {
     return <h1>Deu erro</h1>;
   }
 
-  if (!data || isValidating) {
-    <h1>Carregando...</h1>;
-  }
-
   return (
     <div>
       <Header />
@@ -33,7 +29,7 @@ export function ShoppingCart() {
           
           <div className={styleShoppingCart.flexContainerList}>
             <div className={styleShoppingCart.flexContainerListItem}>
-              {data?.items.map((item) => (
+              {!!data && !isValidating && data?.items.map((item) => (
                 <ItemList
                   imageUrl={item.imageUrl}
                   name={item.name}
@@ -41,6 +37,7 @@ export function ShoppingCart() {
                   sellingPrice={item.sellingPrice}
                 />
               ))}
+              {(!data || isValidating) && <h1>Carregando...</h1>}
             </div>
           </div>
 
@@ -49,7 +46,7 @@ export function ShoppingCart() {
               totalizer.id === "Items" ? <Totalizer id={totalizer.id} name={totalizer.name} value={totalizer.value}/> : null
             )}
 
-            {selectedCard === "acima-10" ? <Badge /> : null}
+            {selectedCard === "acima-10" && <Badge />}
           </div>
 
           <button className={styleShoppingCart.buttonFinalizePurchase} type="button">Finalizar Compra</button>
