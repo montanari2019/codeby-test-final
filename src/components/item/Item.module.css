@@ -9,6 +9,7 @@
     height: 9rem !important;
     border: 1px solid var(--gray-200);
     border-radius: 5px;
+    background: var(--white);
 }
 
 .container > strong {
