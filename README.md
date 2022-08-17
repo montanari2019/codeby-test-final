@@ -1,46 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div style="display: flex; justify-content: center;">
+    <img style="max-width: 20rem " src="./public/logo_codeby.png" />
+</div>
+<h1 align="center" >CodeBy Shopping Cart</h1 >
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2 style="" >Tabela de Conteúdo</h2>
 
-### `npm start`
+<ul>
+   <li><a href="#tabela">Tabela de Conteúdo</a></li>
+   <li><a href="#sobre">Sobre</a></li>
+   <li><a href="#tecnologias">Tecnologias</a></li>
+   <li><a href="#requisitos">Requisitos</a></li>
+   <li><a href="#lincec-a">Licença</a></li>
+   <li><a href="#autor">Autor</a></li>
+   <li><a href="#contato">Contato</a></li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+# Sobre
+<p dir="auto">Esse projeto foi desenvolvido para o processo seletivo da <a href="https://codeby.global/">Codeby Brasil</a> para a vaga de desenvolvedor júnior, ele se resume em um carrinho de compras de determinados produtos. Nele é listado todos os produtos pertinentes a dois carrinhos com preços de compra final diferentes, onde o valor acima de 10 disponibiliza frete grátis e a mensagem é apresentada ao usuário, os dados são listados a partir de uma api em JSON que foi disponibilizado pela empresa. Por último ressaltar que o sistema foi desenvolvido com responsividade.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p> <a href="https://codeby-test-final.herokuapp.com/">Click Aqui para acessar a alicação</a> </p>
 
-### `npm run build`
+<img style="" 
+     src="./public/test-mobile.gif" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<ul>
+   <li>
+    <a href="https://create-react-app.dev/">React Create App</a>
+     <img style="max-width: 1rem" 
+     src="https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react_color-256.png" />
+   </li>
+   <li>
+        <a href="https://www.typescriptlang.org/">TypeScript</a>
+        <img style="max-width: 1rem;" 
+        src="https://cdn3.iconfinder.com/data/icons/teenyicons-outline-vol-3/15/typescript-256.png" />
+   </li>
+   <li>
+    <a href="https://www.npmjs.com/">Npm</a>
+    <img style="max-width: 1rem;" 
+        src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/npm_logo-256.png" />
+   </li>
+</ul>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+</br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Requisitos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<ul>
+   <li>Possuir Node.js versão LTS instalada</li>
+   <li>Possuir NPM instalado (normalmente vem junto ao node.js)</li>
+   <li>Executar o comando de <strong>npm install</strong> para instalar todas as dependências do projeto</li>
+   <li>Executar o comando de <strong>npm run dev</strong> para inicializar a aplicação</li>
+</ul>
