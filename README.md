@@ -35,19 +35,15 @@
 <ul>
    <li>
     <a href="https://create-react-app.dev/">React Create App</a>
-     <img style="max-width: 16px;" 
-     src="https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react_color-256.png" />
+     
    </li>
    <li>
         <a href="https://www.typescriptlang.org/">TypeScript</a>
-        <img style="max-width: 16px;" 
-        src="https://cdn3.iconfinder.com/data/icons/teenyicons-outline-vol-3/15/typescript-256.png" />
+        
    </li>
    <li>
     <a href="https://www.npmjs.com/">Npm</a>
-    <img style="max-width: 16px;" 
-        src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/npm_logo-256.png" />
-   </li>
+    
 </ul>
 
 
