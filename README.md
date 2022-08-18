@@ -10,9 +10,10 @@
 <ul>
    <li><a href="#tabela">Tabela de Conteúdo</a></li>
    <li><a href="#sobre">Sobre</a></li>
+   <li><a href="#demonstração">Demonstração</a></li>
    <li><a href="#tecnologias">Tecnologias</a></li>
    <li><a href="#requisitos">Requisitos</a></li>
-   <li><a href="#lincec-a">Licença</a></li>
+   <li><a href="#licença">Licença</a></li>
    <li><a href="#autor">Autor</a></li>
    <li><a href="#contato">Contato</a></li>
 </ul>
@@ -25,8 +26,15 @@
 
 <p> <a href="https://codeby-test-final.herokuapp.com/">Click Aqui para acessar a alicação</a> </p>
 
-<img style="" 
-     src="./public/test-mobile.gif" />
+
+# Demonstração
+
+<img style="" src="./public/test-mobile.gif" />
+
+</br>
+
+<p>Responsividade</p>
+<img style="" src="./public/test-responsive.gif" />
 
 </br>
 
@@ -54,6 +62,38 @@
 <ul>
    <li>Possuir Node.js versão LTS instalada</li>
    <li>Possuir NPM instalado (normalmente vem junto ao node.js)</li>
-   <li>Executar o comando de <strong>npm install</strong> para instalar todas as dependências do projeto</li>
-   <li>Executar o comando de <strong>npm run dev</strong> para inicializar a aplicação</li>
+   <li>Seguir os passos abaixo</li>
+   
+ <br/>
+
+      #clone este repositório
+      $ git clone <https://github.com/montanari2019/codeby-test-final.git>
+
+      # Acesse a pasta do projeto no terminal/cmd
+      $ cd codeby-test-final
+
+      # Instale as dependências com o comando
+      $ npm install
+
+      # Execute a aplicação em modo de desenvolvimento
+      $ npm run dev
+
+      # Servidor ira executar na porta:300 - acesse <http://localhost:3000/>
+
 </ul>
+
+# Licença
+
+<p dir="auto">Distribuído sob a licença MIT. Veja <code>LICENSE</code> para mais informações.</p>
+
+# Autor
+
+<p dir="auto">Ikaro Montanri, entusiasta por tecnologia e desenvolvedor front-end</p>
+<p dir="auto">Formado em Análie e Desenvolvimento de Sistemas pelo IFRO em Vilhena-RO</p>
+
+
+# Contato
+
+<p>Linkedin <a href="https://www.linkedin.com/in/ikaro-montanari-5aa120208/">Ikaro Montanari</a> </p>
+<p>Instagram  <a href="https://www.instagram.com/ikaro_montanari/">@ikaro_montanari</a> </p>
+<p>Telefone <a href="https://api.whatsapp.com/send?phone=5569993569547&text=Ol%C3%A1%20ikaro">(69) 99356-9547</a> </p>
