@@ -22,9 +22,9 @@
 
 
 # Sobre
-<p dir="auto">Esse projeto foi desenvolvido para o processo seletivo da <a href="https://codeby.global/">Codeby Brasil</a> para a vaga de desenvolvedor júnior, ele se resume em um carrinho de compras de determinados produtos. Nele é listado todos os produtos pertinentes a dois carrinhos com preços de compra final diferentes, onde o valor acima de 10 disponibiliza frete grátis e a mensagem é apresentada ao usuário, os dados são listados a partir de uma api em JSON que foi disponibilizado pela empresa. Por último ressaltar que o sistema foi desenvolvido com responsividade.</p>
+<p dir="auto">Esse projeto foi desenvolvido para o processo seletivo da <a target="_blank" href="https://codeby.global/">Codeby Brasil</a> para a vaga de desenvolvedor júnior, ele se resume em um carrinho de compras de determinados produtos. Nele é listado todos os produtos pertinentes a dois carrinhos com preços de compra final diferentes, onde o valor acima de 10 disponibiliza frete grátis e a mensagem é apresentada ao usuário, os dados são listados a partir de uma api em JSON que foi disponibilizado pela empresa. Por último ressaltar que o sistema foi desenvolvido com responsividade.</p>
 
-<p> <a href="https://codeby-test-final.herokuapp.com/">Click Aqui para acessar a alicação</a> </p>
+<p> <a target="_blank" href="https://codeby-test-final.herokuapp.com/">Click Aqui para acessar a alicação</a> </p>
 
 
 # Demonstração
@@ -42,15 +42,15 @@
 
 <ul>
    <li>
-    <a href="https://create-react-app.dev/">React Create App</a>
+    <a target="_blank" href="https://create-react-app.dev/">React Create App</a>
      
    </li>
    <li>
-        <a href="https://www.typescriptlang.org/">TypeScript</a>
+        <a  target="_blank"href="https://www.typescriptlang.org/">TypeScript</a>
         
    </li>
    <li>
-    <a href="https://www.npmjs.com/">Npm</a>
+    <a target="_blank" href="https://www.npmjs.com/">Npm</a>
     
 </ul>
 
@@ -94,6 +94,6 @@
 
 # Contato
 
-<p>Linkedin <a href="https://www.linkedin.com/in/ikaro-montanari-5aa120208/">Ikaro Montanari</a> </p>
-<p>Instagram  <a href="https://www.instagram.com/ikaro_montanari/">@ikaro_montanari</a> </p>
-<p>Telefone <a href="https://api.whatsapp.com/send?phone=5569993569547&text=Ol%C3%A1%20ikaro">(69) 99356-9547</a> </p>
+<p>Linkedin <a target="_blank" href="https://www.linkedin.com/in/ikaro-montanari-5aa120208/">Ikaro Montanari</a> </p>
+<p>Instagram  <a target="_blank" href="https://www.instagram.com/ikaro_montanari/">@ikaro_montanari</a> </p>
+<p>Telefone <a target="_blank" href="https://api.whatsapp.com/send?phone=5569993569547&text=Ol%C3%A1%20ikaro">(69) 99356-9547</a> </p>
