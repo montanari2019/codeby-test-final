@@ -78,7 +78,7 @@
       # Execute a aplicação em modo de desenvolvimento
       $ npm run dev
 
-      # Servidor ira executar na porta:300 - acesse <http://localhost:3000/>
+      # Servidor ira executar na porta:3000 - acesse <http://localhost:3000/>
 
 </ul>
 
@@ -88,7 +88,7 @@
 
 # Autor
 
-<p dir="auto">Ikaro Montanri, entusiasta por tecnologia e desenvolvedor front-end</p>
+<p dir="auto">Ikaro Montanari, entusiasta por tecnologia e desenvolvedor front-end</p>
 <p dir="auto">Formado em Análie e Desenvolvimento de Sistemas pelo IFRO em Vilhena-RO</p>
 
 
