@@ -24,6 +24,8 @@
 # Sobre / About
 <p dir="auto">This project was developed for the selection process of <a target="_blank" href="https://codeby.global/">Codeby Brasil</a> for the junior developer vacancy, it boils down to a shopping cart of certain products. It lists all products relevant to two carts with different final purchase prices, where the value above 10 provides free shipping and the message is presented to the user, the data is listed from an api in JSON that was made available by the company . Finally, it should be noted that the system was developed with responsiveness.</p>
 
+<p> <a target="_blank" href="https://codeby-test-final.herokuapp.com/">Click Here to access the application</a> </p>
+
 ---------------------------------------------------------------
 
 <p dir="auto">Esse projeto foi desenvolvido para o processo seletivo da <a target="_blank" href="https://codeby.global/">Codeby Brasil</a> para a vaga de desenvolvedor júnior, ele se resume em um carrinho de compras de determinados produtos. Nele é listado todos os produtos pertinentes a dois carrinhos com preços de compra final diferentes, onde o valor acima de 10 disponibiliza frete grátis e a mensagem é apresentada ao usuário, os dados são listados a partir de uma api em JSON que foi disponibilizado pela empresa. Por último ressaltar que o sistema foi desenvolvido com responsividade.</p>
@@ -89,11 +91,14 @@
       $ npm run dev 
 
       # Servidor ira executar na porta:3000 - acesse <http://localhost:3000/>
+      # Server will run on port:3000 - go to <http://localhost:3000/>
 
 </ul>
 
 # Licença / License
 
+<p dir="auto">Distributed under the MIT license. See <code>LICENSE</code> for more information.</p>
+----------------------
 <p dir="auto">Distribuído sob a licença MIT. Veja <code>LICENSE</code> para mais informações.</p>
 
 # Autor / Author
