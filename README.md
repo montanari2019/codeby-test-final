@@ -65,13 +65,14 @@
 # Requisitos / Requirements
 
 <ul>
+  
+      <li>Have Node.js LTS version installed</li>
+   <li>Have NPM installed (usually comes bundled with node.js)</li>
+   <li>Follow the steps below</li>
+    ----------------------------------------
    <li>Possuir Node.js versão LTS instalada</li>
    <li>Possuir NPM instalado (normalmente vem junto ao node.js)</li>
    <li>Seguir os passos abaixo</li>
-    ----------------------------------------
-    <li>Have Node.js LTS version installed</li>
-   <li>Have NPM installed (usually comes bundled with node.js)</li>
-   <li>Follow the steps below</li>
    
  <br/>
 
@@ -97,15 +98,17 @@
 
 # Autor / Author
 
-<p dir="auto">Ikaro Montanari, entusiasta por tecnologia e desenvolvedor front-end</p>
-<p dir="auto">Formado em Análie e Desenvolvimento de Sistemas pelo IFRO em Vilhena-RO</p>
-<p dir="auto">Desenvolvedor Web Front-end nos Postos Mirian</p>
+
+    
+    <p dir="auto">Ikaro Montanari, tech enthusiast and front-end developer</p>
+<p dir="auto">Graduated in Systems Analysis and Development by IFRO in Vilhena-RO</p>
+<p dir="auto">Front-end Web Developer at Mirian Posts, in the fuel sector</p>
 
 ---------------------------------------------
 
-<p dir="auto">Ikaro Montanari, tech enthusiast and front-end developer</p>
-<p dir="auto">Graduated in Systems Analysis and Development by IFRO in Vilhena-RO</p>
-<p dir="auto">Front-end Web Developer at Mirian Posts, in the fuel sector</p>
+<p dir="auto">Ikaro Montanari, entusiasta por tecnologia e desenvolvedor front-end</p>
+<p dir="auto">Formado em Análie e Desenvolvimento de Sistemas pelo IFRO em Vilhena-RO</p>
+<p dir="auto">Desenvolvedor Web Front-end nos Postos Mirian</p>
 
 
 
