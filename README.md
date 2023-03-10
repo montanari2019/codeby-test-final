@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img style="max-width: 320px"  src="./public/logo_codeby.png" />
+    <img style="width: 320px"  src="./public/logo_codeby.png" />
 </div>
 <h1 align="center" >CodeBy Shopping Cart</h1 >
 
