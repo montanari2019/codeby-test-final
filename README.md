@@ -66,7 +66,7 @@
 
 <ul>
   
-      <li>Have Node.js LTS version installed</li>
+   <li>Have Node.js LTS version installed</li>
    <li>Have NPM installed (usually comes bundled with node.js)</li>
    <li>Follow the steps below</li>
     ----------------------------------------
@@ -100,7 +100,7 @@
 
 
     
-    <p dir="auto">Ikaro Montanari, tech enthusiast and front-end developer</p>
+<p dir="auto">Ikaro Montanari, tech enthusiast and front-end developer</p>
 <p dir="auto">Graduated in Systems Analysis and Development by IFRO in Vilhena-RO</p>
 <p dir="auto">Front-end Web Developer at Mirian Posts, in the fuel sector</p>
 
