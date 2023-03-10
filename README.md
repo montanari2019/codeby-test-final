@@ -24,6 +24,8 @@
 # Sobre / About
 <p dir="auto">This project was developed for the selection process of <a target="_blank" href="https://codeby.global/">Codeby Brasil</a> for the junior developer vacancy, it boils down to a shopping cart of certain products. It lists all products relevant to two carts with different final purchase prices, where the value above 10 provides free shipping and the message is presented to the user, the data is listed from an api in JSON that was made available by the company . Finally, it should be noted that the system was developed with responsiveness.</p>
 
+---------------------------------------------------------------
+
 <p dir="auto">Esse projeto foi desenvolvido para o processo seletivo da <a target="_blank" href="https://codeby.global/">Codeby Brasil</a> para a vaga de desenvolvedor júnior, ele se resume em um carrinho de compras de determinados produtos. Nele é listado todos os produtos pertinentes a dois carrinhos com preços de compra final diferentes, onde o valor acima de 10 disponibiliza frete grátis e a mensagem é apresentada ao usuário, os dados são listados a partir de uma api em JSON que foi disponibilizado pela empresa. Por último ressaltar que o sistema foi desenvolvido com responsividade.</p>
 
 
@@ -66,6 +68,10 @@
    <li>Possuir Node.js versão LTS instalada</li>
    <li>Possuir NPM instalado (normalmente vem junto ao node.js)</li>
    <li>Seguir os passos abaixo</li>
+    ----------------------------------------
+    <li>Have Node.js LTS version installed</li>
+   <li>Have NPM installed (usually comes bundled with node.js)</li>
+   <li>Follow the steps below</li>
    
  <br/>
 
@@ -94,6 +100,8 @@
 <p dir="auto">Ikaro Montanari, entusiasta por tecnologia e desenvolvedor front-end</p>
 <p dir="auto">Formado em Análie e Desenvolvimento de Sistemas pelo IFRO em Vilhena-RO</p>
 <p dir="auto">Desenvolvedor Web Front-end nos Postos Mirian</p>
+
+---------------------------------------------
 
 <p dir="auto">Ikaro Montanari, tech enthusiast and front-end developer</p>
 <p dir="auto">Graduated in Systems Analysis and Development by IFRO in Vilhena-RO</p>
